@@ -1,0 +1,26 @@
+questao3 = Paste(
+    paste_title='questao_3', paste_language='Portugues', paste_data='Significa projetar a aplicação primeiro para os dispositivos móveis. Implementando as telas para smartphones e tablets e posteriormente para telas desktop.\n Não é mobile first por estar aparecendo no tablet, em vez de ser exibido apenas no desktop como orientado pelo texto presente nele. Para resolver isso deve-se alterar a media query existente no css para max-width: 768px'
+)
+
+questao4 = Paste(
+    paste_title='questao_4',
+    paste_language='Portugues',
+    paste_data='Este problema está associado com o uso de laços para realizar queries no banco de dados para obter dados de tabelas relacionadas, pois normalmente se faz uma query para obter o conjunto de ids a serem buscados, depois são realizadas N operações para buscar cada valor associado a uma dessas chaves. Para solucionar o problema ao invés de primeiro realizar a busca pelos pastes e depois buscar os usuários associados, poderiamos utilizar uma query do tipo Pastes.objects.select_related('user').all().'
+)
+
+questao5 = Paste(
+    paste_title='questao_5',
+    paste_language='Javascript',
+    paste_data='
+        class Person {
+            constructor(name, age) {
+                this.name = name3
+                this.age = age
+            }
+        
+            isAdult() {
+                return this.age >= 18
+            }
+        }
+    '
+)
